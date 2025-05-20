@@ -8,6 +8,7 @@ import "../styles/Navbar.css";
 const Navbar = () => {
   const [expanded, setExpanded] = useState(false);
 
+  
   useEffect(() => {
     AOS.init({ duration: 900 });
   }, []);
