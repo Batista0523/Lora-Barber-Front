@@ -211,6 +211,32 @@ const Home = () => {
           </Button>
         </Container>
       </section>
+      <section className="py-5 bg-white" id="location">
+  <Container>
+    <Row className="align-items-center text-center text-md-start">
+      <Col md={6} data-aos="fade-right">
+        <h4 className="fw-bold mb-3">¿Dónde Estamos?</h4>
+        <p className="text-muted mb-2">
+          Nuestra barbería está ubicada en el corazón del Bronx:
+        </p>
+        <p className="fw-semibold fs-5 text-dark">
+          814 Hewitt Place, Bronx, NY 10459
+        </p>
+      </Col>
+      <Col md={6} data-aos="fade-left" className="mt-4 mt-md-0 text-center text-md-end">
+        <h5 className="mb-3">¿Quieres contactarnos?</h5>
+        <a
+          href="mailto:Lorazenon@gmail.com"
+          className="d-inline-flex align-items-center text-decoration-none text-dark"
+        >
+          <i className="bi bi-envelope-fill me-2 fs-4"></i>
+          Lorazenon@gmail.com
+        </a>
+      </Col>
+    </Row>
+  </Container>
+</section>
+
     </>
   );
 };

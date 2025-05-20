@@ -56,3 +56,10 @@ blockquote {
     opacity: 1;
   }
 }
+#location h4, #location h5 {
+  color: #222;
+}
+
+#location a:hover {
+  color: #c5a95d;
+}
