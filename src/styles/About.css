@@ -1,0 +1,13 @@
+.about-page h2, .about-page h4, .about-page h5 {
+  color: #1f1f1f;
+}
+
+.about-page img {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+a:hover {
+  text-decoration: underline;
+  color: #c5a95d;
+}

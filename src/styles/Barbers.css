@@ -1,0 +1,57 @@
+/* Barbers.css */
+
+.barbers-page {
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.barbers-page h2 {
+  font-size: 2.5rem;
+  color: #212529;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.card-video {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #343a40;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+.button-dark {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 250px;
+  }
+
+  .barbers-page h2 {
+    font-size: 2rem;
+  }
+}

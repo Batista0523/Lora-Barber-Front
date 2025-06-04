@@ -1,0 +1,66 @@
+.services-page {
+  background-color: #f8f9fa;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.services-page h2 {
+  font-size: 2.75rem;
+  color: #222;
+}
+
+.services-page h3 {
+  font-size: 1.75rem;
+  color: #0d6efd;
+  margin-bottom: 1.5rem;
+}
+
+.services-page h5 {
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #333;
+}
+
+.services-page p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.services-page section {
+  margin-bottom: 3rem;
+}
+
+.services-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services-page ul li {
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 0.75rem;
+}
+
+.services-page ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #198754;
+  font-weight: bold;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
