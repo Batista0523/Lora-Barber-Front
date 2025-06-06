@@ -11,3 +11,8 @@ a:hover {
   text-decoration: underline;
   color: #c5a95d;
 }
+.custom-img-height {
+  height: 800px; /* Ajusta este valor a tu gusto */
+  object-fit: cover;
+  width: 100%;
+}

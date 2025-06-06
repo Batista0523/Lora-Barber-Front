@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import '../styles/Barbers.css'
+import "../styles/Barbers.css";
 
 function Barbers() {
   useEffect(() => {
@@ -19,18 +19,21 @@ function Barbers() {
         <Row className="g-4">
           <Col md={4} data-aos="fade-up">
             <Card className="h-100 shadow border-0">
-        <video className="card-video" autoPlay loop muted playsInline>
-  <source src="/esmairy.mp4" type="video/mp4" />
-  Tu navegador no soporta el video.
-</video>
+              <video className="card-video" autoPlay loop muted playsInline>
+                <source src="/esmairy.mp4" type="video/mp4" />
+                Tu navegador no soporta el video.
+              </video>
 
               <Card.Body className="text-center">
                 <Card.Title>Esmairy Lora"</Card.Title>
                 <Card.Text className="text-muted">
-                  Especialista en fades y cortes modernos. Detallista y apasionado por la perfección.
+                  Especialista en fades y cortes modernos. Detallista y
+                  apasionado por la perfección.
                 </Card.Text>
-                <Link to="/barbers/juan">
-                  <Button variant="dark" className="px-4">Ver Perfil</Button>
+                <Link to="/barbers/esmairy">
+                  <Button variant="dark" className="px-4">
+                    Ver Perfil
+                  </Button>
                 </Link>
               </Card.Body>
             </Card>
@@ -40,12 +43,15 @@ function Barbers() {
             <Card className="h-100 shadow border-0">
               <Card.Img variant="top" src="/barber2.jpg" alt="Barbero 2" />
               <Card.Body className="text-center">
-                <Card.Title>Carlos "Clásico"</Card.Title>
+                <Card.Title>Elisaul Batista</Card.Title>
                 <Card.Text className="text-muted">
-                  Maestro del estilo tradicional. Si buscas elegancia y precisión, Carlos es tu barbero.
+                  Maestro del estilo tradicional. Si buscas elegancia y
+                  precisión, Carlos es tu barbero.
                 </Card.Text>
-                <Link to="/barbers/carlos">
-                  <Button variant="dark" className="px-4">Ver Perfil</Button>
+                <Link to="/barbers/elisaul">
+                  <Button variant="dark" className="px-4">
+                    Ver Perfil
+                  </Button>
                 </Link>
               </Card.Body>
             </Card>
@@ -57,10 +63,13 @@ function Barbers() {
               <Card.Body className="text-center">
                 <Card.Title>Leo "Precision"</Card.Title>
                 <Card.Text className="text-muted">
-                  Conocido por sus líneas impecables y estilo moderno. Un artista del detalle.
+                  Conocido por sus líneas impecables y estilo moderno. Un
+                  artista del detalle.
                 </Card.Text>
                 <Link to="/barbers/leo">
-                  <Button variant="dark" className="px-4">Ver Perfil</Button>
+                  <Button variant="dark" className="px-4">
+                    Ver Perfil
+                  </Button>
                 </Link>
               </Card.Body>
             </Card>

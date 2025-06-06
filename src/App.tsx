@@ -5,6 +5,8 @@ import About from "./Pages/About";
 import Services from "./Pages/Services";
 import ContactUs from "./Pages/ContactUs";
 import Barbers from "./Pages/Barbers";
+import EsmairyProfile from "./Pages/EsmairyProfile";
+import ElisaulProfile from "./Pages/ElisaulProfile";
 function App() {
   return (
     <>
@@ -15,6 +17,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/barbers" element={<Barbers/>} />
+        <Route path="/barbers/esmairy" element={<EsmairyProfile/>} />
+        <Route path="/barbers/elisaul" element={<ElisaulProfile/>} />
       </Routes>
     </>
   );

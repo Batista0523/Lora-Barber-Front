@@ -1,0 +1,19 @@
+.barber-profile-page {
+  background-color: #f8f9fa;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 300px;
+  object-fit: cover;
+}
+
+.gallery-img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}

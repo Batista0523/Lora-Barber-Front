@@ -1,0 +1,98 @@
+.barber-profile {
+  background-color: #f8f9fa;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.barber-photo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.barber-photo:hover {
+  transform: scale(1.05);
+}
+
+.barber-bio p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.barber-bio blockquote {
+  font-style: italic;
+  color: #333;
+  border-left: 4px solid #ffc107;
+  padding-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.gallery-title {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.barber-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.barber-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.barber-gallery img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+/* Video Intro */
+.dragon-intro-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.dragon-intro-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.main-content-hidden {
+  display: none;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dragon-intro-video {
+    height: 100dvh; 
+    object-fit: contain; 
+    background-color: black; 
+  }
+}

@@ -45,6 +45,9 @@ const Navbar = () => {
             <Nav.Link as={NavLink} to="/contact" onClick={handleNavClick}>
               Contact
             </Nav.Link>
+            <Nav.Link as={NavLink} to="/barbers" onClick={handleNavClick}>
+                Barberos
+            </Nav.Link>
           </Nav>
         </BSNavbar.Collapse>
       </Container>
