@@ -12,6 +12,22 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease-in-out;
 }
+.profile-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ffb907;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  margin: 0 auto;
+  display: block;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+}
+
 
 .barber-photo:hover {
   transform: scale(1.05);

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "../styles/Esmairy.css"
+import "../styles/Esmairy.css";
 
 function EsmairyProfile() {
   const [showIntro, setShowIntro] = useState(true);
@@ -36,21 +36,26 @@ function EsmairyProfile() {
           <Container>
             {/* Perfil */}
             <Row className="align-items-center mb-5">
-              <Col md={5} data-aos="fade-right">
+              <Col
+                md={5}
+                data-aos="fade-right"
+                className="text-center mb-4 mb-md-0"
+              >
                 <Image
-                  src="/barber1.jpg"
+                  src="/esmairyProfilePhoto.jpg"
                   alt="Esmairy Lora"
                   roundedCircle
                   className="img-fluid shadow-lg profile-photo"
                 />
               </Col>
+
               <Col md={7} data-aos="fade-left">
                 <h2 className="fw-bold">Esmairy Lora</h2>
                 <p className="text-muted fs-5">
-                  Esmairy cuenta con décadas de experiencia perfeccionando el arte
-                  del corte de cabello. Con manos firmes, una visión creativa y una
-                  pasión inigualable por su oficio, transforma cada visita en una
-                  experiencia única...
+                  Esmairy cuenta con décadas de experiencia perfeccionando el
+                  arte del corte de cabello. Con manos firmes, una visión
+                  creativa y una pasión inigualable por su oficio, transforma
+                  cada visita en una experiencia única...
                 </p>
                 <p className="fst-italic text-dark">
                   “Cada corte es una obra de arte que habla por ti.”
