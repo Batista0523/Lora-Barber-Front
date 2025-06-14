@@ -13,12 +13,12 @@ function About() {
   return (
     <div className="about-page bg-light py-5">
       <Container>
-        {/* Título principal */}
+      
         <h2 className="text-center fw-bold mb-5" data-aos="fade-down">
           Sobre Nosotros
         </h2>
 
-        {/* Imagen y descripción */}
+    
         <Row className="align-items-center mb-5">
           <Col md={6} data-aos="fade-right">
             <img
@@ -45,7 +45,7 @@ function About() {
           </Col>
         </Row>
 
-        {/* Ubicación y contacto */}
+
         <Row className="bg-white shadow rounded p-4 mb-5" data-aos="zoom-in">
           <Col md={6} className="mb-4 mb-md-0">
             <h4 className="fw-bold mb-3">📍 Ubicación</h4>
@@ -78,7 +78,7 @@ function About() {
           </Col>
         </Row>
 
-        {/* Historia */}
+     
         <Row data-aos="fade-up" className="mb-5">
           <Col>
             <h4 className="text-center fw-bold mb-3">Nuestra Historia</h4>
@@ -91,7 +91,6 @@ function About() {
           </Col>
         </Row>
 
-        {/* Valores */}
         <Row className="text-center py-5" data-aos="fade-up">
           <Col md={3}>
             <i className="bi bi-scissors fs-1 text-dark mb-2"></i>
@@ -119,7 +118,7 @@ function About() {
           </Col>
         </Row>
 
-        {/* Lo que nos hace únicos */}
+     
         <Row className="bg-white shadow rounded p-4 my-5" data-aos="fade-right">
           <Col>
             <h4 className="fw-bold mb-3 text-center">
